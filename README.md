@@ -21,7 +21,7 @@ A `<KSYVideo>` component for react-native,requires react-native >= 0.49.0
 #### 1.1 Add it to your project
 * Install via npm
 
-Run `npm install react-native-ksyvideo --save`
+Run `npm install @pangu/@pangu/react-native-ksyvideo --save`
 
 
 ### 1.2 Usage Example
@@ -63,15 +63,15 @@ var styles = StyleSheet.create({
 
 ### 2. Android Integration
 
-Run `react-native link` to link the react-native-ksyvideo library.
+Run `react-native link` to link the @pangu/react-native-ksyvideo library.
 
 Or if you have trouble, make the following additions to the given files manually:
 
 **android/settings.gradle**
 
 ```gradle
-include ':react-native-ksyvideo'
-project(':react-native-ksyvideo').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ksyvideo/android')
+include ':@pangu/react-native-ksyvideo'
+project(':@pangu/react-native-ksyvideo').projectDir = new File(rootProject.projectDir, '../node_modules/@pangu/react-native-ksyvideo/android')
 ```
 
 **android/app/build.gradle**
@@ -79,7 +79,7 @@ project(':react-native-ksyvideo').projectDir = new File(rootProject.projectDir, 
 ```gradle
 dependencies {
    ...
-   compile project(':react-native-ksyvideo')
+   compile project(':@pangu/react-native-ksyvideo')
 }
 ```
 
@@ -105,11 +105,11 @@ protected List<ReactPackage> getPackages() {
 
 ### 3. iOS Integration
 
-Run `react-native link` to link the react-native-ksyvideo library.
+Run `react-native link` to link the @pangu/react-native-ksyvideo library.
 
-Add KSYMediaPlayer.framework(which is in node_modules/react-native-ksyvideo/ios directory) to your project setting 'target->Build Phases->Link Binary With Libraries'.
+Add KSYMediaPlayer.framework(which is in node_modules/@pangu/react-native-ksyvideo/ios directory) to your project setting 'target->Build Phases->Link Binary With Libraries'.
 
-Add Framework Search Path : '../node_modules/react-native-ksyvideo/ios'
+Add Framework Search Path : '../node_modules/@pangu/react-native-ksyvideo/ios'
 
 
 ### 4. Remarks
@@ -117,7 +117,7 @@ If you want to updata native sdk for KSYVideo,make the following additions
 #### 4.1 Android
 The KSYVideo is dependented on [jcenter](https://bintray.com/ksvc/ksyplayer),you can modify the dependencies ,update to high version
 
-build.gradle(Module:react-native-ksyvideo)
+build.gradle(Module:@pangu/react-native-ksyvideo)
 ```gradle
 dependencies {
 
@@ -132,7 +132,7 @@ dependencies {
 
 #### 4.2 iOS
 
-Get the latest framework of KSYMeidaPlayer_iOS at https://github.com/ksvc/KSYMediaPlayer_iOS/releases, then replace the old framework in node_modules/react-native-ksyvideo/ios directory
+Get the latest framework of KSYMeidaPlayer_iOS at https://github.com/ksvc/KSYMediaPlayer_iOS/releases, then replace the old framework in node_modules/@pangu/react-native-ksyvideo/ios directory
 
 ### 5. LICENSE
 [Apache 2.0](LICENSE)

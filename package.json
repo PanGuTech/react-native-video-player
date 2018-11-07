@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ksyvideo",
+  "name": "@pangu/react-native-ksyvideo",
   "version": "1.1.0",
   "main": "KSYVideo.js",
   "scripts": {
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksvc/react-native-video-player.git"
+    "url": "git+https://github.com/PanGuTech/react-native-video-player.git"
   },
   "keywords": [
     "video"
   ],
   "bugs": {
-    "url": "https://github.com/ksvc/react-native-video-player/issues"
+    "url": "https://github.com/PanGuTech/react-native-video-player/issues"
   },
-  "homepage": "https://github.com/ksvc/react-native-video-player#readme"
+  "homepage": "https://github.com/PanGuTech/react-native-video-player#readme"
 }
