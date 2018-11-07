@@ -21,7 +21,7 @@ A `<KSYVideo>` component for react-native,requires react-native >= 0.49.0
 #### 1.1 Add it to your project
 * Install via npm
 
-Run `npm install @pangu/@pangu/react-native-ksyvideo --save`
+Run `npm install @pangu/react-native-ksyvideo --save`
 
 
 ### 1.2 Usage Example
