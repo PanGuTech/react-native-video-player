@@ -32,7 +32,7 @@ Run `npm install @pangu/react-native-ksyvideo --save`
        ref={(ref) => {
          this.player = ref
        }}                                      // Store reference
-  
+       bufferTime={10}
        volume={1.0}                            
        muted={false}                           
        paused={false}                          // Pauses playback entirely.
