@@ -1,6 +1,6 @@
 ## react-native-video-player
-<pre>Source Type:<b> Open Source</b></pre>
-
+ 
+> Source Type: **Open Source**
 
 > Media Player for React-Native, base on KSYMediaPlayer.
 
@@ -50,7 +50,7 @@ Run `npm install @pangu/react-native-ksyvideo --save`
 
 
 // Later on in your styles..
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   backgroundVideo: {
     position: 'absolute',
     top: 0,
@@ -122,10 +122,10 @@ build.gradle(Module:@pangu/react-native-ksyvideo)
 dependencies {
 
     compile "com.facebook.react:react-native:+"  // From node_modules
-    compile 'com.ksyun.media:libksyplayer-arm64:2.1.0'
-    compile 'com.ksyun.media:libksyplayer-x86:2.1.0'
-    compile 'com.ksyun.media:libksyplayer-armv7a:2.1.0'
-    compile 'com.ksyun.media:libksyplayer-java:2.1.0'
+    compile 'com.ksyun.media:libksyplayer-arm64:2.2.4'
+    compile 'com.ksyun.media:libksyplayer-x86:2.2.4'
+    compile 'com.ksyun.media:libksyplayer-armv7a:2.2.4'
+    compile 'com.ksyun.media:libksyplayer-java:2.2.4'
 }
 ```
 
@@ -137,6 +137,9 @@ Get the latest framework of KSYMeidaPlayer_iOS at https://github.com/ksvc/KSYMed
 ### 5. LICENSE
 [Apache 2.0](LICENSE)
 
-[player_android]:https://github.com/ksvc/KSYMediaPlayer_Android
-[player_ios]:https://github.com/ksvc/KSYMediaPlayer_iOS
+
+### 6. SDK
+[player_android](https://github.com/ksvc/KSYMediaPlayer_Android)
+
+[player_ios](https://github.com/ksvc/KSYMediaPlayer_iOS)
 
